@@ -1,0 +1,45 @@
+.container{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background:url('./cute1.jpg') no-repeat;
+    background-size: cover;
+}
+.login-form{
+    width: 350px;
+    top:50%;
+    left:50%;
+    transform:translate(-100%,-50%);
+    position: absolute;
+    color:aqua;
+}
+.login-form h1{
+    font-size: 40px;
+}
+.login-form p{
+    font-size: 20px;
+}
+.login-form input{
+    background: none;
+    font-size: 15px;
+    padding: 10px 50px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 15px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width:30%;
+    border-radius: 10px;
+}
+.login-form p{
+    color: aqua;
+}
+.login-form input{
+    border-bottom: 2px solid purple;
+}
